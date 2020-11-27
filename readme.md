@@ -46,7 +46,7 @@ Generate the SSH keys :
 ``` bash
 $ mkdir app/config/jwt
 $ openssl genrsa -out app/config/jwt/private.pem -aes256 4096
-$ openssl rsa -pubout -in app/config/jwt/private.pem -out config/jwt/public.pem
+$ openssl rsa -pubout -in app/config/jwt/private.pem -out app/config/jwt/public.pem
 ```
 
 In case first ```openssl``` command forces you to input password use following to get the private key decrypted
