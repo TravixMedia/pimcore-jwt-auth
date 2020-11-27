@@ -58,7 +58,7 @@ $ mv app/config/jwt/private2.pem app/config/jwt/private.pem
 
 ## Configuration
 
-Configure the SSH keys path in your `app/config/lexik_jwt_authentication.yaml` :
+Configure the SSH keys path in your `app/config/lexik_jwt_authentication.yml` :
 
 ``` yaml
 lexik_jwt_authentication:
